@@ -44,6 +44,9 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MedatechUK.oData, Version=1.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\MedatechUK.oData.1.4.0\lib\net461\MedatechUK.oData.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -99,14 +102,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="oData\Client\oClient.vb" />
-    <Compile Include="oData\Loading.vb" />
-    <Compile Include="oData\Schema\ODAT_LOAD.vb" />
-    <Compile Include="oData\Schema\ODAT_TRANS.vb" />
-    <Compile Include="oData\Client\oException.vb" />
-    <Compile Include="oData\Client\oForm.vb" />
     <Compile Include="oMsgLog.vb" />
-    <Compile Include="oData\Client\oRow.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
