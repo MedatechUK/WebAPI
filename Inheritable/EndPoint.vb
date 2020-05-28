@@ -598,7 +598,7 @@ Namespace Web
                     Case eLang.json
                         .ContentType = "text/json"
                         Using strm As New StreamWriter(.OutputStream)
-                            Using objx As New oData.JTextWriter(strm)
+                            Using objx As New JTextWriter(strm)
                                 With objx
                                     .WriteStartObject()
                                     .WritePropertyName("response")

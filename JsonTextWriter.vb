@@ -1,6 +1,6 @@
 ﻿Imports Newtonsoft.Json
 
-Namespace oData
+Namespace Web
 
     Public Class JTextWriter : Inherits JsonTextWriter
 
