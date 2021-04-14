@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "edihttp", "edihttp.vbproj", "{8095E1EA-50FC-4A27-A1CF-6064EF441137}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MedatechUK.Log", "..\..\..\MedatechUK.Packages\MedatechUK.Log\MedatechUK.Log.vbproj", "{DEF77D25-0EDD-42AD-84DA-941965DD0EBA}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MedatechUK.oData", "..\..\..\MedatechUK.Packages\MedatechUK.oData\MedatechUK.oData.vbproj", "{92BBB2F7-F2A1-44E0-A64D-FAFCA1AD30A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Packages", "Packages", "{07764E73-9133-4F90-87E2-7AC930DAFA19}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MedatechUK.Deserial", "..\..\..\MedatechUK.Packages\MedatechUK.Deserial\MedatechUK.Deserial.vbproj", "{BB85998B-E526-4E64-B1C6-E89E853BAF03}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "api", "C:\inetpub\api\", "{B9B81584-2563-466F-8B51-71AC69C4C860}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		ProjectReferences = "{8095e1ea-50fc-4a27-a1cf-6064ef441137}|edihttp.dll;{def77d25-0edd-42ad-84da-941965dd0eba}|MedatechUK.Log.dll;{BB85998B-E526-4E64-B1C6-E89E853BAF03}|MedatechUK.Deserialiser.dll;{92BBB2F7-F2A1-44E0-A64D-FAFCA1AD30A0}|MedatechUK.oData.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_60658"
+		Debug.AspNetCompiler.PhysicalPath = "C:\inetpub\api\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60658\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_60658"
+		Release.AspNetCompiler.PhysicalPath = "C:\inetpub\api\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60658\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "60658"
+		SlnRelativePath = "C:\inetpub\api\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8095E1EA-50FC-4A27-A1CF-6064EF441137}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8095E1EA-50FC-4A27-A1CF-6064EF441137}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8095E1EA-50FC-4A27-A1CF-6064EF441137}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8095E1EA-50FC-4A27-A1CF-6064EF441137}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEF77D25-0EDD-42AD-84DA-941965DD0EBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEF77D25-0EDD-42AD-84DA-941965DD0EBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEF77D25-0EDD-42AD-84DA-941965DD0EBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEF77D25-0EDD-42AD-84DA-941965DD0EBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92BBB2F7-F2A1-44E0-A64D-FAFCA1AD30A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92BBB2F7-F2A1-44E0-A64D-FAFCA1AD30A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92BBB2F7-F2A1-44E0-A64D-FAFCA1AD30A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92BBB2F7-F2A1-44E0-A64D-FAFCA1AD30A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB85998B-E526-4E64-B1C6-E89E853BAF03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB85998B-E526-4E64-B1C6-E89E853BAF03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB85998B-E526-4E64-B1C6-E89E853BAF03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB85998B-E526-4E64-B1C6-E89E853BAF03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9B81584-2563-466F-8B51-71AC69C4C860}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9B81584-2563-466F-8B51-71AC69C4C860}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9B81584-2563-466F-8B51-71AC69C4C860}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9B81584-2563-466F-8B51-71AC69C4C860}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DEF77D25-0EDD-42AD-84DA-941965DD0EBA} = {07764E73-9133-4F90-87E2-7AC930DAFA19}
+		{92BBB2F7-F2A1-44E0-A64D-FAFCA1AD30A0} = {07764E73-9133-4F90-87E2-7AC930DAFA19}
+		{BB85998B-E526-4E64-B1C6-E89E853BAF03} = {07764E73-9133-4F90-87E2-7AC930DAFA19}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8FFE3399-E8B6-488E-B2C0-6FA482020546}
+	EndGlobalSection
+EndGlobal

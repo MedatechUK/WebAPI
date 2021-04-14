@@ -8,17 +8,17 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("MedatechUK.Web")>
-<Assembly: AssemblyDescription("The class definitions and interfaces for Priority ERP Feed and Handler Endpoints.")>
+<Assembly: AssemblyTitle("edihttp")>
+<Assembly: AssemblyDescription("Provides acces to lexors from http")>
 <Assembly: AssemblyCompany("MedatechUK")>
-<Assembly: AssemblyProduct("MedatechUK.Web")>
-<Assembly: AssemblyCopyright("Copyright MedatechUK ©  2020")>
-<Assembly: AssemblyTrademark("")>
+<Assembly: AssemblyProduct("edihttp")>
+<Assembly: AssemblyCopyright("Copyright ©MedatechUK  2021")>
+<Assembly: AssemblyTrademark("Future proof your business.")>
 
 <Assembly: ComVisible(False)>
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
-<Assembly: Guid("de7ffaa5-0731-4bb3-b710-789e2901e0e8")>
+<Assembly: Guid("159001c0-2efa-4e0e-96d2-af7a089fa442")>
 
 ' Version information for an assembly consists of the following four values:
 '
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")>
 
-<Assembly: AssemblyVersion("1.1.0.0")>
-<Assembly: AssemblyFileVersion("1.1.0.0")>
+<Assembly: AssemblyVersion("1.3.0.0")>
+<Assembly: AssemblyFileVersion("1.3.0.0")>
