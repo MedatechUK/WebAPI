@@ -109,15 +109,15 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\MedatechUK.Packages\MedatechUK.Deserial\MedatechUK.Deserial.vbproj">
+    <ProjectReference Include="..\MedatechUK.Deserial\MedatechUK.Deserial.vbproj">
       <Project>{bb85998b-e526-4e64-b1c6-e89e853baf03}</Project>
       <Name>MedatechUK.Deserial</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\MedatechUK.Packages\MedatechUK.Log\MedatechUK.Log.vbproj">
+    <ProjectReference Include="..\MedatechUK.Log\MedatechUK.Log.vbproj">
       <Project>{def77d25-0edd-42ad-84da-941965dd0eba}</Project>
       <Name>MedatechUK.Log</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\MedatechUK.Packages\MedatechUK.oData\MedatechUK.oData.vbproj">
+    <ProjectReference Include="..\MedatechUK.oData\MedatechUK.oData.vbproj">
       <Project>{92bbb2f7-f2a1-44e0-a64d-fafca1ad30a0}</Project>
       <Name>MedatechUK.oData</Name>
     </ProjectReference>

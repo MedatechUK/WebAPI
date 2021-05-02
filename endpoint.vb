@@ -105,6 +105,7 @@ Public MustInherit Class EndPoint
     End Sub
 
     Sub [POST](ByRef context As HttpContext)
+        Debug.Print(Path.Combine(HttpContext.Current.Server.MapPath("/api"), "bin"))
         With context.Response
             Using EX As New MedatechUK.Deserialiser.AppExtension(AddressOf hLog)
                 If EX.LexByAssemblyName(requestEndpoint) Is Nothing Then
@@ -132,7 +133,7 @@ Public MustInherit Class EndPoint
 
     Public ReadOnly Property LogDir As DirectoryInfo
         Get
-            Return New DirectoryInfo(Path.Combine(HttpContext.Current.Server.MapPath("/"), "log"))
+            Return New DirectoryInfo(Path.Combine(HttpContext.Current.Server.MapPath("/api/"), "log"))
         End Get
     End Property
 
