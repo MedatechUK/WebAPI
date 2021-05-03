@@ -113,6 +113,7 @@ Friend Class sqlXML
             Return New SqlCommand(sqlString.ToString, cn)
 
         End Get
+
     End Property
 
 #Region "IDisposable Support"

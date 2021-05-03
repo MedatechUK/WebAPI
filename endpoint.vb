@@ -64,6 +64,9 @@ Public MustInherit Class EndPoint
     Sub [GET](ByRef context As HttpContext)
         With context.Response
             Try
+                'If New FileInfo(Path.Combine(context.Server.MapPath("/api/"), HttpContext.Current.Request("endpoint"))).Exists Then
+                '    context.Response.Redirect(String.Format("/api/{0}?environment={1}", HttpContext.Current.Request("endpoint"), HttpContext.Current.Request("environment")))
+                'End If
                 Using cn As New SqlConnection(Me.PriorityDBConnection)
                     cn.Open()
                     Using r As New sqlXML(Me, cn)
@@ -105,7 +108,6 @@ Public MustInherit Class EndPoint
     End Sub
 
     Sub [POST](ByRef context As HttpContext)
-        Debug.Print(Path.Combine(HttpContext.Current.Server.MapPath("/api"), "bin"))
         With context.Response
             Using EX As New MedatechUK.Deserialiser.AppExtension(AddressOf hLog)
                 If EX.LexByAssemblyName(requestEndpoint) Is Nothing Then
